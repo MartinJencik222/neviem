@@ -1,0 +1,54 @@
+# Configuration Settings for Crossy Road Game
+
+# Screen settings
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+
+# Grid and tiles
+GRID_SIZE = 40
+TILE_SIZE = GRID_SIZE
+
+# Colors
+COLOR_GRASS = (34, 139, 34)
+COLOR_ROAD = (64, 64, 64)
+COLOR_WATER = (30, 144, 255)
+COLOR_PLAYER_1 = (255, 100, 100)
+COLOR_PLAYER_2 = (100, 100, 255)
+COLOR_ENEMY = (255, 50, 50)
+COLOR_COLLECTIBLE = (200, 100, 255)
+COLOR_BACKGROUND = (50, 50, 50)
+COLOR_TEXT = (255, 255, 255)
+COLOR_PLATFORM = (139, 69, 19)
+
+# Game mechanics
+JUMP_HEIGHT = 60
+JUMP_SPEED = 15
+GRAVITY = 0.8
+PLAYER_SPEED = 5
+ENEMY_SPEED_BASE = 3
+COLLECTIBLE_POINTS = 50
+LEVEL_UP_POINTS = 100
+
+# Level generation
+TERRAIN_TYPES = ['grass', 'road', 'water']
+GRASS_RATIO = 0.4
+ROAD_RATIO = 0.35
+WATER_RATIO = 0.25
+INITIAL_SPAWN_HEIGHT = 5  # Tiles visible at start
+
+# Difficulty scaling
+DIFFICULTY_INCREASE_PER_LEVEL = 0.02
+MAX_ENEMY_SPEED = 8
+
+# Multiplayer
+MAX_PLAYERS = 2
+PLAYER_SEPARATION = 60
+
+# Game modes
+SINGLE_PLAYER = 1
+MULTIPLAYER = 2
+
+# Sound settings (for future use)
+SOUND_ENABLED = True
+MASTER_VOLUME = 0.7
